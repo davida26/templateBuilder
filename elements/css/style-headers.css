@@ -1,59 +1,59 @@
-.bodyPadding {
+.da-bodyPadding {
 	padding-top: 76px;
 }
 
-body.bodyPaddingLess {
+body.da-bodyPaddingLess {
 	padding-top: 56px;
 }
 
-.text-center > a img {
+.da-text-center > a img {
 	max-width: 100%;
 }
 
-.wrapper.grey {
+.da-wrapper.da-grey {
 	background: #ECF0F1;
 	border-top: 1px solid #d3d9dd;
 	border-bottom: 1px solid #d3d9dd;
 }
 
-.navbar.plain .navbar-nav a {
+.da-navbar.da-plain .da-navbar-nav a {
 	color: #7F8C8D;
 	text-transform: uppercase;
 	font-weight: normal;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
+.da-navbar-inverse .da-navbar-nav > li > a:hover {
 	color: #fff;
 }
 
-.navbar.plain .navbar-nav, .navbar-grey .navbar-nav {
+.da-navbar.da-plain .da-navbar-nav, .da-navbar-grey .da-navbar-nav {
 	margin-top: 15px;
 }
 
-.navbar.plain .navbar-brand {
+.da-navbar.da-plain .da-navbar-brand {
 	color: #34495E;
 	line-height: 50px;
 }
 
-.navbar-grey .navbar-brand {
+.da-navbar-grey .da-navbar-brand {
 	line-height: 50px;
 	font-weight: normal;
 }
 
-.navbar.plain .navbar-brand img, .navbar-grey .navbar-brand img {
+.da-navbar.da-plain .da-navbar-brand img, .da-navbar-grey .da-navbar-brand img {
 	float: left;
 	margin-right: 15px;
 }
 
-.navbar.navbar-grey {
+.da-navbar.da-navbar-grey {
 	background: #3e3e3e !important;
 }
 
-.navbar.navbar-none {
+.da-navbar.da-navbar-none {
 	background: none !important;
 }
 
-.navbar-grey .navbar-nav > .active > a, .navbar-grey .navbar-nav > .active > a:hover, .navbar-grey .navbar-nav > .active > a:focus {
+.da-navbar-grey .da-navbar-nav > .da-active > a, .da-navbar-grey .da-navbar-nav > .da-active > a:hover, .da-navbar-grey .da-navbar-nav > .da-active > a:focus {
 	background: #fff;
 	color: #3e3e3e;
 }
@@ -63,37 +63,37 @@ body.bodyPaddingLess {
 
 /* headers */
 
-header.dark {
+header.da-dark {
 	background-color: #3D566E;
 	color: #eee;
 }
 
-header.dark .navbar.plain a {
+header.da-dark .da-navbar.da-plain a {
 	color: #fff;
 }
 
-.wrapper.image {
+.da-wrapper.da-image {
 	position: relative;
 	width: 100%;
 	z-index: 100;
 	color: #fff;
 }
 
-.wrapper.image1 .container {
+.da-wrapper.da-image1 .da-container {
 	padding-top: 260px;
 	padding-bottom: 260px;
 }
 
-.wrapper.image2 .container {
+.da-wrapper.da-image2 .da-container {
 	padding-top: 25px;
 	padding-bottom: 100px;
 }
 
-.wrapper.image .container p {
+.da-wrapper.da-image .da-container p {
 	font-size: 18px;
 }
 
-.wrapper.image .bg {
+.da-wrapper.da-image .da-bg {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -101,46 +101,46 @@ header.dark .navbar.plain a {
 	bottom: 0px;
 }
 
-.wrapper.image .bg1 {
-	background-image: url(../images/picture1.jpg);
+.da-wrapper.da-image .da-bg1 {
+	background-image: url(../images/picture1.da-jpg);
 	background-repeat: no-repeat;
 	background-position: 0% bottom;
 	background-size: cover;
 	background-attachment: scroll;
 	background-color: rgba(0, 0, 0, 0);
-	/*background: url(../images/picture1.jpg) no-repeat scroll 50% 50% / cover  rgba(0, 0, 0, 0);*/
+	/*background: url(../images/picture1.da-jpg) no-repeat scroll 50% 50% / cover  rgba(0, 0, 0, 0);*/
 }
 
-.wrapper.image .bg2 {
-	background-image: url(../images/picture2.jpg);
+.da-wrapper.da-image .da-bg2 {
+	background-image: url(../images/picture2.da-jpg);
 	background-repeat: no-repeat;
 	background-position: 0% bottom;
 	background-size: cover;
 	background-attachment: scroll;
 	background-color: rgba(0, 0, 0, 0);
-	/*background: url(../images/picture2.jpg) no-repeat scroll 50% bottom / cover  rgba(0, 0, 0, 0);*/
+	/*background: url(../images/picture2.da-jpg) no-repeat scroll 50% bottom / cover  rgba(0, 0, 0, 0);*/
 }
 
-.banner.grey {
+.da-banner.da-grey {
 	background: #95A5A6;
 }
 
-.banner h1 {
+.da-banner h1 {
 	margin: 80px 0px 80px 0px;
 	font-weight: normal;
 	font-size: 40px;
-	line-height: 1.4em;
+	line-height: 1.da-4em;
 }
 
-.banner2 h1 {
+.da-banner2 h1 {
 	margin: 80px 0px 10px 0px;
 }
 
-.banner2 {
+.da-banner2 {
 	margin-bottom: 80px;
 }
 
-.banner2 p {
+.da-banner2 p {
 	margin-top: 0px;
 }
 
@@ -148,12 +148,12 @@ header.dark .navbar.plain a {
 /* carousel */
 
 
-.carousel.carousel1 .carousel-indicators {
+.da-carousel.da-carousel1 .da-carousel-indicators {
 	position: inherit;
 	right: 0px;
 }
 
-.carousel.carousel1 .item h1 {
+.da-carousel.da-carousel1 .da-item h1 {
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -163,84 +163,87 @@ header.dark .navbar.plain a {
 	border-bottom: 2px dashed #ddd;
 }
 
-.carousel.carousel1 .item .lead {
+.da-carousel.da-carousel1 .da-item .da-lead {
 	font-size: 20px;
 }
 
-.carousel.carousel1 .carousel-indicators li {
+.da-carousel.da-carousel1 .da-carousel-indicators li {
 	background-color: #7F8C8D;
 	width: 12px;
 	height: 12px;
 }
 
-.carousel.carousel1 .carousel-indicators li.active {
+.da-carousel.da-carousel1 .da-carousel-indicators li.da-active {
 	background-color: #CBD0D3;
 }
 
-.carousel.carousel2 .carousel-inner {
+.da-carousel.da-carousel2 .da-carousel-inner {
 	overflow: visible;
 }
 
-.carousel.carousel2 {
+.da-carousel.da-carousel2 {
 	margin-top: 130px;
 	margin-bottom: 200px;
 }
 
-.carousel.carousel2 img {
+.da-carousel.da-carousel2 img {
 	max-width: 100%;
 	width: 100%;
 }
 
-.carousel.carousel2 .carousel-control.left {
+.da-carousel.da-carousel2 .da-carousel-control.da-left {
 	left: -100px;
 }
-.carousel.carousel2 .carousel-control.right {
+.da-carousel.da-carousel2 .da-carousel-control.da-right {
 	right: -100px;
 }
 
-.carousel.carousel2 .item h3 {
+.da-carousel.da-carousel2 .da-item h3 {
 	margin-top: 0px;
 }
 
-.carousel.carousel-fade .item {
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
+.da-carousel.da-carousel-fade .da-item {
+	-webkit-transition: opacity 0.da-5s ease-in-out;
+	-moz-transition: opacity 0.da-5s ease-in-out;
+	-ms-transition: opacity 0.da-5s ease-in-out;
+	-o-transition: opacity 0.da-5s ease-in-out;
+	transition: opacity 0.da-5s ease-in-out;
 	opacity:0;
 }
 
-.carousel.carousel-fade .active.item {
+.da-carousel.da-carousel-fade .da-active.da-item {
 	opacity:1;
 }
 
-.carousel.carousel-fade .active.left,
-.carousel.carousel-fade .active.right {
+.da-carousel.da-carousel-fade .da-active.da-left,
+.da-carousel.da-carousel-fade .da-active.da-right {
 	left: 0;
 	z-index: 2;
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
 
-.carousel.carousel-fade .next,
-.carousel.carousel-fade .prev {
+.da-carousel.da-carousel-fade .da-next,
+.da-carousel.da-carousel-fade .da-prev {
 	left: 0;
 	z-index: 1;
 }
 
-.carousel.carousel-fade .carousel-control {
+.da-carousel.da-carousel-fade .da-carousel-control {
 	z-index: 3;
 }
 
 /* end carousel */
+.da-margin-bottom-100{
+	margin-bottom: 100px;
+}
 
 
 
 /* header 10 */
 
-.item.header.header10 {
-	background-image: url(../images/nikon-515883_1920.jpg);
+.da-item.da-header.da-header10 {
+	background-image: url(../images/nikon-515883_1920.da-jpg);
 	background-repeat: no-repeat;
 	background-position: 0% top;
 	background-size: cover;
@@ -248,22 +251,22 @@ header.dark .navbar.plain a {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-form.headerForm input {
+form.da-headerForm input {
 	border: 0px;
 }
 
-.header10 .navbar-header a img {
+.da-header10 .da-navbar-header a img {
 	height: 30px;
     margin-right: 10px;
     position: relative;
     top: -4px;
 }
 
-.nav.navbar-nav.navbar-right {
+.da-nav.da-navbar-nav.da-navbar-right {
 	margin-right: 0px !important;	
 }
 
-.header10 h2 {
+.da-header10 h2 {
 	font-weight: 400;
 	margin-top: 0px;
 }
@@ -274,8 +277,8 @@ form.headerForm input {
 
 /* header 11 */
 
-.item.header.header11 {
-	background-image: url(../images/powder-snow-496875_1920.jpg);
+.da-item.da-header.da-header11 {
+	background-image: url(../images/powder-snow-496875_1920.da-jpg);
 	background-repeat: no-repeat;
 	background-position: 0% top;
 	background-size: cover;
@@ -283,13 +286,13 @@ form.headerForm input {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.header11 h1 {
+.da-header11 h1 {
 	color: #F5F7F8;
 	font-weight: 200;
 	font-size: 45px;
 }
 
-.header11 .navbar-header a img {
+.da-header11 .da-navbar-header a img {
 	height: 30px;
     margin-right: 10px;
     position: relative;

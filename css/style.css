@@ -128,7 +128,7 @@ header .modes > label {
 
 header .modes > label.radio.primary {
 	display: inline-block;
-	margin-top: 0px !important;
+	margin-top: 5px !important;
 }
 
 header .modes > label {
