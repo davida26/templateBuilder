@@ -2,7 +2,7 @@
 
 	/* CONFIG */
 	
-	$pathToAssets = array("elements/bootstrap", "elements/css", "elements/fonts", "elements/images", "elements/js");
+	//$pathToAssets = array("elements/bootstrap", "elements/css", "elements/fonts", "elements/images", "elements/js");
 	
 	$filename = "tmp/website.zip"; //use the /tmp folder to circumvent any permission issues on the root folder
 
@@ -16,13 +16,13 @@
 	
 	//add folder structure
 	
-	foreach( $pathToAssets as $thePath ) {
+	//foreach( $pathToAssets as $thePath ) {
 	
 		// Create recursive directory iterator
-		$files = new RecursiveIteratorIterator(
-	    	new RecursiveDirectoryIterator( $thePath ),
-	    	RecursiveIteratorIterator::LEAVES_ONLY
-		);
+	//	$files = new RecursiveIteratorIterator(
+	 //   	new RecursiveDirectoryIterator( $thePath ),
+	 //   	RecursiveIteratorIterator::LEAVES_ONLY
+//);
 	
 		foreach ($files as $name => $file) {
 		
@@ -44,7 +44,7 @@
 	    
 		}
 	
-	}
+	//}
 	
 	
 	
