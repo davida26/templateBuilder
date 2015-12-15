@@ -4,23 +4,33 @@
 //@TODO - cache images.
 
 var _Elements = {"elements": {
-    "Sections":[
+    "Full Width":[
     	{"url":"elements/full-width-headline.html","height":200, "thumbnail":"elements/images/thumbs/full-width-headline.png"},
     	{"url":"elements/full-width-image.html","height":200, "thumbnail":"elements/images/thumbs/full-width.png"},
     	{"url":"elements/full-width-title-buttons.html","height":200, "thumbnail":"elements/images/thumbs/text-buttons.png"},
-    	{"url":"elements/2-col-image-text.html","height":200, "thumbnail":"elements/images/thumbs/2-col-prod.png"},
-    	{"url":"elements/2-col-text-image.html","height":491, "thumbnail":"elements/images/thumbs/2-col-prd-alt.png"},
-    	{"url":"elements/2-col-duplicates.html","height":498, "thumbnail":"elements/images/thumbs/2-prod-layout.png"},
-    	{"url":"elements/3-col-layout.html","height":633, "thumbnail":"elements/images/thumbs/3-col-layout.png"},
-    	{"url":"elements/2-col-alternative.html","height":633, "thumbnail":"elements/images/thumbs/2-col-prd-simple.png"},
-    	{"url":"elements/2-col-alternative-simple.html","height":959, "thumbnail":"elements/images/2-col-prod-alt.png"},
-    	{"url":"elements/4-col-simple.html","height":660, "thumbnail":"elements/images/thumbs/4-col-img.png"},
-    	{"url":"elements/event-announce.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"},
-        {"url":"elements/event-alternative.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"},
-        {"url":"elements/2-col-symbols.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"},
-        {"url":"elements/3-col-lists.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"},
-        {"url":"elements/customer-tech.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"},
-        {"url":"elements/pull-quote.html","height":715, "thumbnail":"elements/images/thumbs/header7.png"}
     ],
+    "2 Columns":[
+        {"url":"elements/2-col-image-text.html","height":200, "thumbnail":"elements/images/thumbs/2-col-prod.png"},
+        {"url":"elements/2-col-text-image.html","height":491, "thumbnail":"elements/images/thumbs/2-col-prd-alt.png"},
+        {"url":"elements/2-col-duplicates.html","height":498, "thumbnail":"elements/images/thumbs/2-prod-layout.png"},
+        {"url":"elements/2-col-duplicates.html","height":498, "thumbnail":"elements/images/thumbs/2-col-prod-alt.png"},
+        {"url":"elements/2-col-alternative.html","height":633, "thumbnail":"elements/images/thumbs/2-col-prd-simple.png"},
+        {"url":"elements/2-col-symbols.html","height":715, "thumbnail":"elements/images/thumbs/2-col-check.png"},
+    ],
+    "3 Columns":[
+        {"url":"elements/3-col-layout.html","height":633, "thumbnail":"elements/images/thumbs/3-col-layout.png"},
+        {"url":"elements/3-col-lists.html","height":715, "thumbnail":"elements/images/thumbs/3-col-lists.png"},
+    ], 
+    "4 Columns":[
+        {"url":"elements/4-col-simple.html","height":660, "thumbnail":"elements/images/thumbs/4-col-img.png"},
+    ],
+    "Events":[
+        {"url":"elements/event-announce.html","height":715, "thumbnail":"elements/images/thumbs/cal-event1.png"},
+        {"url":"elements/event-alternative.html","height":715, "thumbnail":"elements/images/thumbs/cal-event2.png"},
+    ],
+    "Reviews":[
+        {"url":"elements/customer-tech.html","height":715, "thumbnail":"elements/images/thumbs/cust-tech.png"},
+        {"url":"elements/pull-quote.html","height":715, "thumbnail":"elements/images/thumbs/pull-quote.png"}
+    ]
     }
 }
