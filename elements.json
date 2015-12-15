@@ -13,8 +13,8 @@ var _Elements = {"elements": {
         {"url":"elements/2-col-image-text.html","height":200, "thumbnail":"elements/images/thumbs/2-col-prod.png"},
         {"url":"elements/2-col-text-image.html","height":491, "thumbnail":"elements/images/thumbs/2-col-prd-alt.png"},
         {"url":"elements/2-col-duplicates.html","height":498, "thumbnail":"elements/images/thumbs/2-prod-layout.png"},
-        {"url":"elements/2-col-duplicates.html","height":498, "thumbnail":"elements/images/thumbs/2-col-prod-alt.png"},
-        {"url":"elements/2-col-alternative.html","height":633, "thumbnail":"elements/images/thumbs/2-col-prd-simple.png"},
+        {"url":"elements/2-col-alternative.html","height":498, "thumbnail":"elements/images/thumbs/2-col-prd-simple.png"},
+        {"url":"elements/2-col-alternative-simple.html","height":633, "thumbnail":"elements/images/thumbs/2-col-prod-alt.png"},
         {"url":"elements/2-col-symbols.html","height":715, "thumbnail":"elements/images/thumbs/2-col-check.png"},
     ],
     "3 Columns":[
